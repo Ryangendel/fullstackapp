@@ -20,7 +20,7 @@ const data = [
 ]
 
 app.get("/", (req, res)=>{
-    res.json(data)
+    res.send(JSON.stringify(data));
 })
 
 app.listen(PORT)
