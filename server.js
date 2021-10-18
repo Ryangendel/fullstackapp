@@ -2,6 +2,8 @@ const express = require("express")
 const app = express()
 const PORT = process.env.PORT || 3000
 
+//mongodb+srv://admin:password@cluster0.lc6in.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
 const data = [
     {
         id:1,
